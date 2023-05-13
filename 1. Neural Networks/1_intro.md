@@ -9,3 +9,6 @@ $$b_i = a_1w_{i1} + a_2w_{i2} + ... + a_nw_{in} = \sum_{k=1}^{n}a_kw_{ik} = \tex
 
 This can be extended to all nodes in the next layer:
 $$\textbf{b} = \sum_{k = 1}^{n} \textbf{a} \cdot \textbf{w}_k = \textbf{W}\textbf{a}$$
+
+- Talk about biases (added for each calculated neuron)
+- Talk about the sigmoid function (scales the value of b_i to between 0 and 1)
