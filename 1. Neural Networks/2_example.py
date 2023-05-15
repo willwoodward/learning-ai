@@ -10,6 +10,6 @@ i = 2
 y = math.sqrt(i)
 
 # I want to train a neural network to calculate square roots
-answer = w[2]*sigmoid(w[1]*sigmoid(w[0]*i+b[0]) + b[1]) + b[2]
+answer = (w[2]*sigmoid(w[1]*sigmoid(w[0]*i+b[0]) + b[1]) + b[2])*i
 
 print(y, answer)
